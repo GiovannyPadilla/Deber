@@ -16,6 +16,7 @@ int main (){
     {
         num /= 10;
     }
-    
+    primerd = num;
+    printf("El primer digito del numero ingresado es:%d\n",primerd);
     return 0;
 }
