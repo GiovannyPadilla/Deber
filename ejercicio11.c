@@ -12,7 +12,14 @@ int main (){
     // utilizamos if para verificar que el numero ingresado es de dos digitos
     if (num >=10 && num<=99)
     {
+        //usamos el bucle for para imprimir los numeros entre el primer y segundo digito 
+      for (int i = primerd + 1; i < segundod; i++)
+      {
+        printf("%d\n",i);
+      }
         
+    }else{
+        printf("El numero ingresado no es de dos digitos\n");
     }
     
     return 0;
